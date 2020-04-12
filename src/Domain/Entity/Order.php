@@ -7,38 +7,38 @@ class Order {
   protected $description;
   protected $total;
 
-  public function getCustomer() {
+  public function getCustomer(){
     return $this->customer;
   }
 
-  public function setCustomer($customer) {
+  public function setCustomer($customer){
     $this->customer = $customer;
     return $this;
   }
 
-  public function getOrderNumber() {
+  public function getOrderNumber(){
     return $this->orderNumber;
   }
 
-  public function setOrderNumber($orderNumber) {
+  public function setOrderNumber($orderNumber){
     $this->orderNumber = $orderNumber;
     return $this;
   }
 
-  public function getDescription() {
+  public function getDescription(){
     return $this->description;
   }
 
-  public function setDescription($description) {
+  public function setDescription($description){
     $this->description = $description;
     return $this;
   }
 
-  public function getTotal() {
+  public function getTotal(){
     return $this->total;
   }
 
-  public function setTotal($total) {
+  public function setTotal($total){
     $this->total = $total;
     return $this;
   }
